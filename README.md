@@ -14,6 +14,7 @@ Utilized the DESC and LIMIT functions to identify the most senior employee based
 **Result**: Andrew Adams, positioned to lead strategic business initiatives.
 
 
+
 **Country-wise Invoice Analysis**:
 
 Used COUNT, GROUP BY, and ORDER BY to rank countries by the number of invoices.
@@ -25,6 +26,7 @@ USA: 130 invoices
 Canada: 70 invoices
 
 Brazil: 55 invoices
+
 
 
 **Top Invoice Values**:
