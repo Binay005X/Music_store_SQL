@@ -20,7 +20,7 @@ Utilized the DESC and LIMIT functions to identify the most senior employee based
 
 
 
-###Country-wise Invoice Analysis:
+### Country-wise Invoice Analysis:
 
 Used COUNT, GROUP BY, and ORDER BY to rank countries by the number of invoices.
 
