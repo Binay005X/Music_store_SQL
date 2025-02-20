@@ -20,7 +20,7 @@ Utilized the DESC and LIMIT functions to identify the most senior employee based
 
 
 
-**Country-wise Invoice Analysis**:
+###Country-wise Invoice Analysis:
 
 Used COUNT, GROUP BY, and ORDER BY to rank countries by the number of invoices.
 
@@ -34,26 +34,26 @@ Brazil: 55 invoices
 
 
 
-**Top Invoice Values**:
+### Top Invoice Values:
 
 Retrieved the top 3 total invoice values using SQL aggregation functions.
 
 Top 3 invoice amounts: $120.75, $112.50, $110.00.
 
 
-**Best Customer City**:
+### Best Customer City:
 
 Calculated the highest sum of invoice totals per city.
 
 Result: Prague with a total invoice value of $273.24.
 
 
-**Top Spending Customers**:
+### Top Spending Customers:
 
 Used SUM, GROUP BY, and ORDER BY to identify the highest-spending customers.
 
 
-**Top 3 customers**:
+### Top 3 customers:
 
 František Wichterlová - $144.54
 
@@ -62,19 +62,19 @@ Helena Holá - $128.70
 Hugh O'Reilly - $114.84
 
 
-**Rock Music Listener Identification**:
+### Rock Music Listener Identification:
 
 Joined customer, invoice, invoice_line, track, and genre tables.
 
 Extracted 250+ Rock music listeners, ordered alphabetically by email.
 
 
-**Top Rock Artists**:
+### Top Rock Artists:
 
 Filtered dataset by Rock genre and counted tracks per artist.
 
 
-**Top 3 Rock artists**:
+### Top 3 Rock artists:
 
 AC/DC - 18 songs
 
@@ -83,14 +83,14 @@ Aerosmith - 15 songs
 Audioslave - 14 songs
 
 
-**Track Length Comparison**:
+### Track Length Comparison:
 
 Used subqueries and WHERE filters to identify tracks longer than the average song length.
 
 **Result**: 120 tracks identified, with the longest track at 528,000 milliseconds (~8.8 minutes).
 
 
-**Customer Spending on Artists**:
+### Customer Spending on Artists:
 
 Calculated total customer spending per artist using SUM and multi-table joins.
 
@@ -98,15 +98,15 @@ Identified Taylor Swift as the top-selling artist with $540+ in total customer s
 
 
 
-**Most Popular Genre by Country**:
+### Most Popular Genre by Country:
 
 Created a CTE to rank genres by purchase count per country.
 
-Result: Rock music was the most popular genre in 8 out of 12 countries analyzed.
+**Result**: Rock music was the most popular genre in 8 out of 12 countries analyzed.
 
 
 
-**Top Customer by Country**:
+### Top Customer by Country:
 
 Used a CTE and ROW_NUMBER() to identify the highest-spending customer for each country.
 
@@ -114,11 +114,11 @@ Achieved 100% accuracy in isolating top customers by country with optimized SQL 
 
 
 
-**Technical Stack**:
+### Technical Stack:
 
-SQL: Data aggregation, multi-table joins, subqueries, CTEs, ranking functions.
+**SQL**: Data aggregation, multi-table joins, subqueries, CTEs, ranking functions.
 
-Database: Relational schema with tables for customers, invoices, tracks, genres, and artists.
+**Database**: Relational schema with tables for customers, invoices, tracks, genres, and artists.
 
 
 
@@ -130,5 +130,6 @@ Database: Relational schema with tables for customers, invoices, tracks, genres,
 
 **Optimized database querying**: Reduced query runtime by 20% through indexing and optimized joins.
 
-**Key Takeaway**: This SQL project delivered quantitative insights into customer behavior and market performance, helping the music store develop data-driven strategies to boost revenue and engagement.
+### Key Takeaway: 
+This SQL project delivered quantitative insights into customer behavior and market performance, helping the music store develop data-driven strategies to boost revenue and engagement.
 
