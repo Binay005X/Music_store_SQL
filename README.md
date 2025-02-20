@@ -1,13 +1,13 @@
 # Music_store_SQL
 
 
-# Project Overview:
+## Project Overview:
 The objective of this project was to analyze a music store's sales data to identify growth opportunities, improve customer engagement, and develop targeted marketing strategies.
 
 
-# Key Achievements:
+## Key Achievements:
 
-**Senior-most Employee Identification**:
+### Senior-most Employee Identification:
 
 Utilized the DESC and LIMIT functions to identify the most senior employee based on job title.
 
